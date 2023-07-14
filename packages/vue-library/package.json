@@ -1,0 +1,26 @@
+{
+  "name": "vue-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "eisavand fa <esavand.fa@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+  "test": "echo \"Error: run tests from root\" && exit 1",
+ "build": "npm run tsc",
+ "tsc": "tsc -p ."
+  },
+  "devDependencies": {
+    "vue": "3",
+    "stencil-library": "*"
+  }
+}
